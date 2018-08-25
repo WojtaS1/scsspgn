@@ -1,14 +1,14 @@
 footer {
   height: 100%;
-  background-color: #151515;
-  color: #fff;
+  background-color: color(bck);
+  color: color(wht);
 }
 
 footer h1 {
   margin: 0 auto;
   margin-top: 70px;
   margin-bottom: 30px;
-  color: #fff;
+  color: color(wht);
   font-family: font(baloo);
   font-size: 18px;
   font-weight: 400;
@@ -18,37 +18,36 @@ footer nav {
   margin: 0 auto;
   margin-bottom: 80px;
   padding: 0;
-  color: #fff;
+  color: color(wht);
   font-family: font(dosis);
   font-size: 17px;
 }
 
 footer nav a {
   margin: 0 auto;
-  color: #fff;
+  color: color(wht);
 }
 
-footer nav i {
-  margin: 0 auto;
-  margin-bottom: 10px;
+footer a {
+  margin: 0 15px 10px 0;
 }
 
-footer nav i .fa-instagram:hover {
-  color: #FF5733;
+footer a:hover .fa-instagram {
+  color: color(tmt);
   font-size: 25px;
 }
 
-footer nav i .fa-facebook-square:hover {
-  color: #21618C;
+footer a:hover .fa-facebook-square {
+  color: color(fblue);
   font-size: 25px;
 }
 
-footer nav i .fa-500px:hover {
+footer a:hover .fa-500px {
   color: #F1948A;
   font-size: 25px;
 }
 
-footer nav i .fa-snapchat-square:hover {
+footer a:hover .fa-snapchat-square {
   color: #F1C40F;
   font-size: 25px;
 }

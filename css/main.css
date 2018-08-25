@@ -10,7 +10,6 @@ body {
 body header {
   margin-left: auto;
   margin-right: auto;
-  width: 100%;
   height: 100vh;
   background-image: url(../img/header/bg.jpg);
   background-size: cover;
@@ -102,7 +101,7 @@ body header .button {
 
 body header .button:hover {
   width: 200px;
-  background-color: #FF5733;
+  background-color: #6495ed;
   font-size: 20px;
 }
 
@@ -121,14 +120,17 @@ body .img {
 
 body .img.img1 {
   background-image: url(../img/header/imgs2.jpg);
+  z-index: 1000;
 }
 
 body .img.img2 {
   background-image: url(../img/header/img-2.jpg);
+  z-index: 1020;
 }
 
 body .img.img3 {
   background-image: url(../img/header/img-3.jpg);
+  z-index: 1000;
 }
 
 body .img.img4 {
@@ -140,8 +142,8 @@ body .img.img5 {
 }
 
 body .img.img1:hover, body .img.img2:hover, body .img.img3:hover, body .img.img4:hover, body .img.img5:hover {
-  -webkit-box-shadow: 0 0 50px #151515;
-  box-shadow: 0 0 50px #151515;
+  -webkit-box-shadow: 0px 0px 50px 0px #151515;
+  box-shadow: 0px 0px 50px 0px #151515;
 }
 
 body .img h1 {
@@ -222,27 +224,26 @@ body footer nav a {
   color: #fff;
 }
 
-body footer nav i {
-  margin: 0 auto;
-  margin-bottom: 10px;
+body footer a {
+  margin: 0 15px 10px 0;
 }
 
-body footer nav i .fa-instagram:hover {
+body footer a:hover .fa-instagram {
   color: #FF5733;
   font-size: 25px;
 }
 
-body footer nav i .fa-facebook-square:hover {
-  color: #21618C;
+body footer a:hover .fa-facebook-square {
+  color: #6495ed;
   font-size: 25px;
 }
 
-body footer nav i .fa-500px:hover {
+body footer a:hover .fa-500px {
   color: #F1948A;
   font-size: 25px;
 }
 
-body footer nav i .fa-snapchat-square:hover {
+body footer a:hover .fa-snapchat-square {
   color: #F1C40F;
   font-size: 25px;
 }

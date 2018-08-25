@@ -1,19 +1,10 @@
-@function color($color-name){
-    @return map-get($colors, $color-name)
-};
 
-$colors: (
-    wht: #fff,
-    bck: #151515,
-    tmt: #FF5733
-);
-
-footer{
+footer {
     height: 100%;
     background-color: color(bck);
     color: color(wht);
 
-    h1{
+    h1 {
         margin: 0 auto;
         margin-top: 70px;
         margin-bottom: 30px;
@@ -34,27 +25,27 @@ footer{
             margin: 0 auto;
             color: color(wht);
         }
-        i{
-            margin: 0 auto;
-            margin-bottom: 10px;
-        
-            .fa-instagram:hover{
-                color: #FF5733;
+    }
+    a {
+        margin: 0 15px 10px 0;
+        &:hover{
+            .fa-instagram{
+                color: color(tmt);
                 font-size: 25px;
             }
-            .fa-facebook-square:hover{
-                color: #21618C;
+            .fa-facebook-square{
+                color: color(fblue);
                 font-size: 25px;
             }
-            .fa-500px:hover{
+            .fa-500px{
                 color: #F1948A;
                 font-size: 25px;
             }    
-            .fa-snapchat-square:hover{
+            .fa-snapchat-square{
                 color: #F1C40F;
                 font-size: 25px;
             }
-        
         }
     }
 }    
+   

@@ -9,17 +9,17 @@
        background-size: cover;
        @include transform(all .3s ease);
        
-        &.img1{ background-image: img(img1); }
-        &.img2{ background-image: img(img2); }
-        &.img3{ background-image: img(img3); }
-        &.img4{ background-image: img(img4); }
-        &.img5{ background-image: img(img5); }
+        &.img1 { background-image: img(img1); z-index: 1000;}
+        &.img2 { background-image: img(img2); z-index: 1020;}
+        &.img3 { background-image: img(img3); z-index: 1000;}
+        &.img4 { background-image: img(img4); }
+        &.img5 { background-image: img(img5); }
 
         &.img1, &.img2, &.img3, &.img4, &.img5 {
             &:hover{
-                -moz-box-shadow: 0 0 50px color(bck);
-                -webkit-box-shadow: 0 0 50px color(bck);
-                box-shadow: 0 0 50px color(bck);
+                -webkit-box-shadow: 0px 0px 50px 0px rgba(21,21,21,1);
+                -moz-box-shadow: 0px 0px 50px 0px rgba(21,21,21,1);
+                    box-shadow: 0px 0px 50px 0px rgba(21,21,21,1);
                     }
         }
         h1{
