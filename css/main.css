@@ -8,24 +8,25 @@ body {
 }
 
 body header {
+  margin-left: auto;
+  margin-right: auto;
   height: 100vh;
-  margin: 0 auto;
   background-image: url(../img/header/bg.jpg);
   background-size: cover;
 }
 
 body header .menu {
-  margin: 1.5% 0 0 3%;
+  margin: 1% 0 0 3%;
   font-size: 23px;
   z-index: 1;
   position: fixed;
 }
 
 body header .menu:hover {
-  background-color: #151515;
   width: 100%;
   height: 100vh;
-  margin: 0 auto;
+  background-color: #151515;
+  margin: -1% 0 0 0;
 }
 
 body header .menu:hover i {
@@ -56,30 +57,29 @@ body header .menu a {
 }
 
 body header .menu a:hover {
-  color: cornflowerblue;
+  color: #6495ed;
   width: 200px;
 }
 
 body header .menu a:hover i {
-  color: cadetblue;
+  color: #5f9ea0;
+}
+
+body header h1, body header h2 {
+  font-family: "Baloo Bhai";
+  font-size: 32px;
+}
+
+body header h2, body header h3 {
+  width: 403px;
+  margin: 0 0 0 16.5%;
 }
 
 body header h1 {
   margin-top: 1.5%;
-  font-family: "Baloo Bhai";
-  font-size: 32px;
-}
-
-body header h2 {
-  width: 403px;
-  margin-left: 16.5%;
-  font-family: "Baloo Bhai";
-  font-size: 32px;
 }
 
 body header h3 {
-  width: 403px;
-  margin-left: 16.5%;
   font-family: "Dosis";
   font-size: 24px;
 }
@@ -87,8 +87,7 @@ body header h3 {
 body header .button {
   width: 136px;
   height: 48px;
-  margin-left: 16.5%;
-  margin-top: 2%;
+  margin: 2% 0 0 16.5%;
   color: #fff;
   background-color: #151515;
   border-radius: 24px;
@@ -102,7 +101,7 @@ body header .button {
 
 body header .button:hover {
   width: 200px;
-  background-color: tomato;
+  background-color: #FF5733;
   font-size: 20px;
 }
 
@@ -148,6 +147,7 @@ body .img.img3:hover {
 
 body .img.img4 {
   background-image: url(../img/header/imgs1.jpg);
+  z-index: 101;
 }
 
 body .img.img4:hover {
@@ -157,6 +157,7 @@ body .img.img4:hover {
 
 body .img.img5 {
   background-image: url(../img/header/imgs3.jpg);
+  z-index: 100;
 }
 
 body .img.img5:hover {

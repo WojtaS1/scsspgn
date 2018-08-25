@@ -1,0 +1,60 @@
+
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
+
+@function img($img-name){
+    @return map-get($img, $img-name)
+};
+
+$img: (
+    header: url(../img/header/bg.jpg),
+    menu: url(../img/header/menu.png),
+    img1: url(../img/header/imgs2.jpg),
+    img2: url(../img/header/img-2.jpg),
+    img3: url(../img/header/img-3.jpg),
+    img4: url(../img/header/imgs1.jpg),
+    img5: url(../img/header/imgs3.jpg)
+
+);
+
+@function color($color-name){
+    @return map-get($colors, $color-name)
+};
+
+$colors: (
+    wht: #fff,
+    dwht: #eee,
+    fblue: #6495ed,
+    cblue: #5f9ea0,
+    bck: #151515,
+    tmt: #FF5733
+);
+
+@function font($font-name){
+    @return map-get($font, $font-name)
+};
+
+$font: (
+    baloo: 'Baloo Bhai',
+    dosis: 'Dosis'
+);
+
+@mixin marginauto {
+    margin: {
+        left: auto;
+        right: auto;
+    }
+}
+@mixin height {
+    height: 100vh;   
+}
+@mixin width {
+    width: 100%;
+}
+@mixin transform {
+    -webkit-transition: all .5s ease;
+    -moz-transition: all .5s ease;
+    -o-transition: all .5s ease;
+    -ms-transition: all .5s ease;
+     transition: all .5s ease;
+}

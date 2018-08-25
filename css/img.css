@@ -40,6 +40,7 @@
 
 .img.img4 {
   background-image: img(img4);
+  z-index: 101;
 }
 
 .img.img4:hover {
@@ -49,6 +50,7 @@
 
 .img.img5 {
   background-image: img(img5);
+  z-index: 100;
 }
 
 .img.img5:hover {

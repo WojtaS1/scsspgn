@@ -1,39 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Dosis');
-@import url('https://fonts.googleapis.com/css?family=Baloo+Bhai');
-
-
-@function img($img-name){
-    @return map-get($img, $img-name)
-};
-
-@function color($color-name){
-    @return map-get($colors, $color-name)
-};
-
-@function font($font-name){
-    @return map-get($font, $font-name)
-};
-
-$font: (
-    baloo: 'Baloo Bhai',
-    dosis: 'Dosis'
-);
-$img: (
-    header: url(../img/header/bg.jpg),
-    menu: url(../img/header/menu.png),
-    img1: url(../img/header/imgs2.jpg),
-    img2: url(../img/header/img-2.jpg),
-    img3: url(../img/header/img-3.jpg),
-    img4: url(../img/header/imgs1.jpg),
-    img5: url(../img/header/imgs3.jpg)
-
-);
-$colors: (
-    wht: #fff,
-    bck: #151515,
-    tmt: #FF5733
-);
-
+@import 'function.scss';
 
 body {
     margin: 0;
@@ -41,12 +6,11 @@ body {
     background-color: color(wht);
     position: absolute;   
 
+    @import 'header.scss';
 
-@import 'header.scss';
+    @import 'img.scss';
 
-@import 'img.scss';
+    @import 'cards.scss';
 
-@import 'cards.scss';
-
-@import 'footer.scss';
+    @import 'footer.scss';
 }
