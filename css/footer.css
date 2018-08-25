@@ -1,0 +1,55 @@
+footer {
+  height: 100%;
+  background-color: #151515;
+  color: #fff;
+}
+
+footer h1 {
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: font(baloo);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+footer nav {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 0;
+  color: #fff;
+  font-family: font(dosis);
+  font-size: 17px;
+}
+
+footer nav a {
+  margin: 0 auto;
+  color: #fff;
+}
+
+footer nav i {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+footer nav i .fa-instagram:hover {
+  color: #FF5733;
+  font-size: 25px;
+}
+
+footer nav i .fa-facebook-square:hover {
+  color: #21618C;
+  font-size: 25px;
+}
+
+footer nav i .fa-500px:hover {
+  color: #F1948A;
+  font-size: 25px;
+}
+
+footer nav i .fa-snapchat-square:hover {
+  color: #F1C40F;
+  font-size: 25px;
+}
+/*# sourceMappingURL=footer.css.map */

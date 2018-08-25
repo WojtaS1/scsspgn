@@ -1,0 +1,86 @@
+.img {
+       height: 250px;
+       margin: 0 auto;
+       margin-left: -15px;
+       margin-right: -15px;
+       background-attachment: fixed;
+       background-position: center;
+       background-repeat: no-repeat;
+       background-size: cover;
+       -webkit-transition: all .3s ease;
+        -moz-transition: all .3s ease;
+         -o-transition: all .3s ease;
+          -ms-transition: all .3s ease;
+           transition: all .3s ease;
+       
+        &.img1{
+            background-image: img(img1);
+
+            &:hover{
+                
+                -moz-box-shadow: 0 0 50px color(bck);
+		        -webkit-box-shadow: 0 0 50px color(bck);
+		            box-shadow: 0 0 50px color(bck);
+            }
+        }
+        &.img2{
+            background-image: img(img2);
+            &:hover{
+                
+                -moz-box-shadow: 0 0 50px color(bck);
+		        -webkit-box-shadow: 0 0 50px color(bck);
+		            box-shadow: 0 0 50px color(bck);
+            }
+        }
+        &.img3{
+            background-image: img(img3);
+            &:hover{
+                
+                -moz-box-shadow: 0 0 50px color(bck);
+		        -webkit-box-shadow: 0 0 50px color(bck);
+		            box-shadow: 0 0 50px color(bck);
+            }
+        }
+        &.img4{
+            background-image: img(img4);
+            &:hover{
+                
+                -moz-box-shadow: 0 0 50px color(bck);
+		        -webkit-box-shadow: 0 0 50px color(bck);
+		            box-shadow: 0 0 50px color(bck);
+            }
+        }
+        &.img5{
+            background-image: img(img5);
+            &:hover{
+                
+                -moz-box-shadow: 0 0 50px color(bck);
+		        -webkit-box-shadow: 0 0 50px color(bck);
+		            box-shadow: 0 0 50px color(bck);
+            }
+        }
+        h1{
+            margin-top: 68px;
+            color: color(wht);
+            font-family: font(baloo);
+            font-size: 68px;
+            text-align: center;
+        }
+        .button{
+            width: 455px;
+            height: 57px;
+            margin: 0 auto;
+            padding-bottom: 20px;
+            padding-top: 20px;
+            background-color: color(wht);
+            border-radius: 28.5px;
+            font-family: font(baloo);
+            font-size: 18px;
+            font-weight: 400;
+            text-align: center;
+            &:hover {
+                background-color: cornflowerblue;
+                color: #fff;
+            }
+        }
+    }

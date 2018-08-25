@@ -1,0 +1,269 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #fff;
+  position: absolute;
+}
+
+body header {
+  height: 100vh;
+  margin: 0 auto;
+  background-image: url(../img/header/bg.jpg);
+  background-size: cover;
+}
+
+body header .menu {
+  margin: 1.5% 0 0 3%;
+  font-size: 23px;
+  z-index: 1;
+  position: fixed;
+}
+
+body header .menu:hover {
+  background-color: #151515;
+  width: 100%;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+body header .menu:hover i {
+  margin: 2% 0 0 5%;
+  color: #fff;
+}
+
+body header .menu:hover nav {
+  display: initial;
+}
+
+body header .menu nav {
+  display: none;
+  cursor: pointer;
+  position: relative;
+}
+
+body header .menu a {
+  margin: 0 0 1% 10%;
+  width: 150px;
+  display: block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #eee;
+  font-size: 16px;
+  font-family: "Dosis";
+  position: relative;
+}
+
+body header .menu a:hover {
+  color: cornflowerblue;
+  width: 200px;
+}
+
+body header .menu a:hover i {
+  color: cadetblue;
+}
+
+body header h1 {
+  margin-top: 1.5%;
+  font-family: "Baloo Bhai";
+  font-size: 32px;
+}
+
+body header h2 {
+  width: 403px;
+  margin-left: 16.5%;
+  font-family: "Baloo Bhai";
+  font-size: 32px;
+}
+
+body header h3 {
+  width: 403px;
+  margin-left: 16.5%;
+  font-family: "Dosis";
+  font-size: 24px;
+}
+
+body header .button {
+  width: 136px;
+  height: 48px;
+  margin-left: 16.5%;
+  margin-top: 2%;
+  color: #fff;
+  background-color: #151515;
+  border-radius: 24px;
+  font-family: "Dosis";
+  font-size: 16px;
+  padding-top: 10px;
+  text-align: center;
+  -webkit-transition: all .5s ease;
+  transition: all .5s ease;
+}
+
+body header .button:hover {
+  width: 200px;
+  background-color: tomato;
+  font-size: 20px;
+}
+
+body .img {
+  height: 250px;
+  margin: 0 auto;
+  margin-left: -15px;
+  margin-right: -15px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+}
+
+body .img.img1 {
+  background-image: url(../img/header/imgs2.jpg);
+}
+
+body .img.img1:hover {
+  -webkit-box-shadow: 0 0 50px #151515;
+  box-shadow: 0 0 50px #151515;
+}
+
+body .img.img2 {
+  background-image: url(../img/header/img-2.jpg);
+}
+
+body .img.img2:hover {
+  -webkit-box-shadow: 0 0 50px #151515;
+  box-shadow: 0 0 50px #151515;
+}
+
+body .img.img3 {
+  background-image: url(../img/header/img-3.jpg);
+}
+
+body .img.img3:hover {
+  -webkit-box-shadow: 0 0 50px #151515;
+  box-shadow: 0 0 50px #151515;
+}
+
+body .img.img4 {
+  background-image: url(../img/header/imgs1.jpg);
+}
+
+body .img.img4:hover {
+  -webkit-box-shadow: 0 0 50px #151515;
+  box-shadow: 0 0 50px #151515;
+}
+
+body .img.img5 {
+  background-image: url(../img/header/imgs3.jpg);
+}
+
+body .img.img5:hover {
+  -webkit-box-shadow: 0 0 50px #151515;
+  box-shadow: 0 0 50px #151515;
+}
+
+body .img h1 {
+  margin-top: 68px;
+  color: #fff;
+  font-family: "Baloo Bhai";
+  font-size: 68px;
+  text-align: center;
+}
+
+body .img .button {
+  width: 455px;
+  height: 57px;
+  margin: 0 auto;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #fff;
+  border-radius: 28.5px;
+  font-family: "Baloo Bhai";
+  font-size: 18px;
+  font-weight: 400;
+  text-align: center;
+}
+
+body .img .button:hover {
+  background-color: cornflowerblue;
+  color: #fff;
+}
+
+body .cards {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 123px;
+  margin-top: 123px;
+  border: none;
+  text-align: center;
+}
+
+body .cards h1 {
+  font-family: "Baloo Bhai";
+  font-size: 24px;
+  font-weight: 400;
+}
+
+body .cards p {
+  font-family: "Dosis";
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body footer {
+  height: 100%;
+  background-color: #151515;
+  color: #fff;
+}
+
+body footer h1 {
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: #fff;
+  font-family: "Baloo Bhai";
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body footer nav {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 0;
+  color: #fff;
+  font-family: "Dosis";
+  font-size: 17px;
+}
+
+body footer nav a {
+  margin: 0 auto;
+  color: #fff;
+}
+
+body footer nav i {
+  margin: 0 auto;
+  margin-bottom: 10px;
+}
+
+body footer nav i .fa-instagram:hover {
+  color: #FF5733;
+  font-size: 25px;
+}
+
+body footer nav i .fa-facebook-square:hover {
+  color: #21618C;
+  font-size: 25px;
+}
+
+body footer nav i .fa-500px:hover {
+  color: #F1948A;
+  font-size: 25px;
+}
+
+body footer nav i .fa-snapchat-square:hover {
+  color: #F1C40F;
+  font-size: 25px;
+}
+/*# sourceMappingURL=main.css.map */
