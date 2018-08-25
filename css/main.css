@@ -77,7 +77,7 @@ body header h2, body header h3 {
 }
 
 body header h1 {
-  margin-top: 1.5%;
+  margin: 1.5% 0 0 0;
 }
 
 body header h3 {
@@ -96,8 +96,8 @@ body header .button {
   font-size: 16px;
   padding-top: 10px;
   text-align: center;
-  -webkit-transition: all .5s ease;
-  transition: all .5s ease;
+  -webkit-transition: all 0.5s ease;
+  transition: all 0.5s ease;
 }
 
 body header .button:hover {
@@ -115,53 +115,31 @@ body .img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  -webkit-transition: all .3s ease;
-  transition: all .3s ease;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
 }
 
 body .img.img1 {
   background-image: url(../img/header/imgs2.jpg);
 }
 
-body .img.img1:hover {
-  -webkit-box-shadow: 0 0 50px #151515;
-  box-shadow: 0 0 50px #151515;
-}
-
 body .img.img2 {
   background-image: url(../img/header/img-2.jpg);
-}
-
-body .img.img2:hover {
-  -webkit-box-shadow: 0 0 50px #151515;
-  box-shadow: 0 0 50px #151515;
 }
 
 body .img.img3 {
   background-image: url(../img/header/img-3.jpg);
 }
 
-body .img.img3:hover {
-  -webkit-box-shadow: 0 0 50px #151515;
-  box-shadow: 0 0 50px #151515;
-}
-
 body .img.img4 {
   background-image: url(../img/header/imgs1.jpg);
-  z-index: 101;
-}
-
-body .img.img4:hover {
-  -webkit-box-shadow: 0 0 50px #151515;
-  box-shadow: 0 0 50px #151515;
 }
 
 body .img.img5 {
   background-image: url(../img/header/imgs3.jpg);
-  z-index: 100;
 }
 
-body .img.img5:hover {
+body .img.img1:hover, body .img.img2:hover, body .img.img3:hover, body .img.img4:hover, body .img.img5:hover {
   -webkit-box-shadow: 0 0 50px #151515;
   box-shadow: 0 0 50px #151515;
 }

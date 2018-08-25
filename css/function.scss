@@ -49,10 +49,10 @@ $font: (
     width: $width;
     height: $height;
   }
-@mixin transform {
-    -webkit-transition: all .5s ease;
-    -moz-transition: all .5s ease;
-    -o-transition: all .5s ease;
-    -ms-transition: all .5s ease;
-     transition: all .5s ease;
+@mixin transform($value) {
+    -webkit-transition: $value;
+    -moz-transition: $value;
+    -o-transition: $value;
+    -ms-transition: $value;
+     transition: $value;
 }

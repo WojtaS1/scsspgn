@@ -7,57 +7,20 @@
        background-position: center;
        background-repeat: no-repeat;
        background-size: cover;
-       -webkit-transition: all .3s ease;
-        -moz-transition: all .3s ease;
-         -o-transition: all .3s ease;
-          -ms-transition: all .3s ease;
-           transition: all .3s ease;
+       @include transform(all .3s ease);
        
-        &.img1{
-            background-image: img(img1);
+        &.img1{ background-image: img(img1); }
+        &.img2{ background-image: img(img2); }
+        &.img3{ background-image: img(img3); }
+        &.img4{ background-image: img(img4); }
+        &.img5{ background-image: img(img5); }
 
-            &:hover{
-                
-                -moz-box-shadow: 0 0 50px color(bck);
-		        -webkit-box-shadow: 0 0 50px color(bck);
-		            box-shadow: 0 0 50px color(bck);
-            }
-        }
-        &.img2{
-            background-image: img(img2);
-            &:hover{
-                
-                -moz-box-shadow: 0 0 50px color(bck);
-		        -webkit-box-shadow: 0 0 50px color(bck);
-		            box-shadow: 0 0 50px color(bck);
-            }
-        }
-        &.img3{
-            background-image: img(img3);
-            &:hover{
-                
-                -moz-box-shadow: 0 0 50px color(bck);
-		        -webkit-box-shadow: 0 0 50px color(bck);
-		            box-shadow: 0 0 50px color(bck);
-            }
-        }
-        &.img4{
-            background-image: img(img4);
-            z-index: 101;
+        &.img1, &.img2, &.img3, &.img4, &.img5 {
             &:hover{
                 -moz-box-shadow: 0 0 50px color(bck);
-		        -webkit-box-shadow: 0 0 50px color(bck);
-		            box-shadow: 0 0 50px color(bck);
-            }
-        }
-        &.img5{
-            background-image: img(img5);
-            z-index: 100;
-            &:hover{
-                -moz-box-shadow: 0 0 50px color(bck);
-		        -webkit-box-shadow: 0 0 50px color(bck);
-		            box-shadow: 0 0 50px color(bck);
-            }
+                -webkit-box-shadow: 0 0 50px color(bck);
+                box-shadow: 0 0 50px color(bck);
+                    }
         }
         h1{
             margin-top: 68px;
