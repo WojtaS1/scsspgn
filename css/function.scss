@@ -45,12 +45,10 @@ $font: (
         right: auto;
     }
 }
-@mixin height {
-    height: 100vh;   
-}
-@mixin width {
-    width: 100%;
-}
+@mixin size($width, $height: $width) {
+    width: $width;
+    height: $height;
+  }
 @mixin transform {
     -webkit-transition: all .5s ease;
     -moz-transition: all .5s ease;

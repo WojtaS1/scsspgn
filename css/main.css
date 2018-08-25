@@ -10,6 +10,7 @@ body {
 body header {
   margin-left: auto;
   margin-right: auto;
+  width: 100%;
   height: 100vh;
   background-image: url(../img/header/bg.jpg);
   background-size: cover;
@@ -46,19 +47,19 @@ body header .menu nav {
 
 body header .menu a {
   margin: 0 0 1% 10%;
-  width: 150px;
-  display: block;
   padding: 10px 20px;
-  text-decoration: none;
+  width: 150px;
   color: #eee;
+  display: block;
   font-size: 16px;
   font-family: "Dosis";
+  text-decoration: none;
   position: relative;
 }
 
 body header .menu a:hover {
-  color: #6495ed;
   width: 200px;
+  color: #6495ed;
 }
 
 body header .menu a:hover i {
