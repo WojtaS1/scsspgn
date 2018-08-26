@@ -1,0 +1,8 @@
+header {
+  margin-left: auto;
+  margin-right: auto;
+  height: 100vh;
+  background-image: img(-header);
+  background-size: cover;
+}
+/*# sourceMappingURL=header.css.map */

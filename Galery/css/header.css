@@ -1,0 +1,33 @@
+header {
+  height: 10vh;
+  margin: 0 auto;
+  background-color: color(-white);
+  -webkit-box-shadow: 0 0 50px color(-gray-dark);
+          box-shadow: 0 0 50px color(-gray-dark);
+  z-index: 1;
+}
+
+header a {
+  margin: 1% 0 0 3%;
+  color: color(-gray);
+  font-size: 25px;
+  position: fixed;
+  z-index: 1;
+}
+
+header a:hover {
+  text-decoration: none;
+  color: color(-primary);
+}
+
+header h1 {
+  margin: 1.5% 0 0 0;
+  color: color(-gray);
+  font-family: font(-baloo);
+  font-size: 25px;
+}
+
+header h1:hover {
+  color: color(-primary);
+}
+/*# sourceMappingURL=header.css.map */

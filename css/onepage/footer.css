@@ -1,0 +1,54 @@
+footer {
+  height: 100%;
+  background-color: color(bck);
+  color: color(wht);
+}
+
+footer h1 {
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: color(wht);
+  font-family: font(baloo);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+footer nav {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 0;
+  color: color(wht);
+  font-family: font(dosis);
+  font-size: 17px;
+}
+
+footer nav a {
+  margin: 0 auto;
+  color: color(wht);
+}
+
+footer a {
+  margin: 0 15px 10px 0;
+}
+
+footer a:hover .fa-instagram {
+  color: color(tmt);
+  font-size: 25px;
+}
+
+footer a:hover .fa-facebook-square {
+  color: color(fblue);
+  font-size: 25px;
+}
+
+footer a:hover .fa-500px {
+  color: #F1948A;
+  font-size: 25px;
+}
+
+footer a:hover .fa-snapchat-square {
+  color: #F1C40F;
+  font-size: 25px;
+}
+/*# sourceMappingURL=footer.css.map */

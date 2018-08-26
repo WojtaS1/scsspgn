@@ -1,0 +1,17 @@
+img {
+  height: 720px;
+  background-size: cover;
+}
+
+img .img1 {
+  background-image: img(-img1);
+}
+
+img .img2 {
+  background-image: img(-img2);
+}
+
+img .img3 {
+  background-image: img(-img3);
+}
+/*# sourceMappingURL=images.css.map */

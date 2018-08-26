@@ -1,0 +1,49 @@
+footer{
+    height: 45%;
+    background-color: color(-gray-dark);
+    color: color(-white);
+
+    h1 {
+        margin: 0 auto;
+        margin-top: 70px;
+        margin-bottom: 30px;
+        color: color(-white);
+        font-family: font(baloo);
+        font-size: 18px;
+        font-weight: 400;
+    }
+    nav {
+        margin: 0 auto;
+        margin-bottom: 80px;
+        padding: 0;
+        color: color(-white);
+        font-family: font(dosis);
+        font-size: 17px;
+
+        a {
+            margin: 0 auto;
+            color: color(-white);
+        }
+    }
+    a {
+        margin: 0 15px 10px 0;
+        &:hover{
+            .fa-instagram{
+                color: color(-pink);
+                font-size: 25px;
+            }
+            .fa-facebook-square{
+                color: color(-primary);
+                font-size: 25px;
+            }
+            .fa-500px{
+                color: color(-red);
+                font-size: 25px;
+            }    
+            .fa-snapchat-square{
+                color: color(-yellow);
+                font-size: 25px;
+            }
+        }
+    }
+}

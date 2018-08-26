@@ -1,0 +1,12 @@
+@import 'function.scss';
+
+body{
+    margin: 0;
+    padding: 0;
+    background-color: color(-white);
+
+@import 'header.scss';
+@import 'images.scss';
+@import '../../css/onepage/cards.scss';
+@import 'footer.scss';
+}

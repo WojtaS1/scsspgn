@@ -1,0 +1,85 @@
+header {
+    @include marginauto;
+    height: 100vh;
+    background-image: img(header);
+    background-size: cover;
+        .menu {
+            margin: 1% 0 0 3%;
+            font-size: 23px;
+            z-index: 1;
+            position: fixed;  
+            
+            &:hover {
+                @include size(100%, 100vh);
+                background-color: color(bck);
+                margin: -1% 0 0 0;
+                
+                i {
+                    margin: 2% 0 0 5%;
+                    color: color(wht);
+                }
+                nav{
+                    display: initial;  
+                }
+            }
+            nav {
+                display: none;
+                cursor: pointer;
+                position: relative; 
+            }
+            a {
+                margin: 0 0 1% 10%;
+                padding: 10px 20px;
+                width: 150px;
+                color: color(dwht);
+                display: block;
+                font-size: 16px;
+                font-family: font(dosis);
+                text-decoration: none;
+                position: relative;
+
+                &:hover{
+                    width: 200px;
+                    color: color(fblue);
+                    i{
+                        color: color(cblue);
+                    }
+                }
+            }
+        }    
+        h1, h2 {
+            font-family: font(baloo);
+            font-size: 32px;
+        }
+        h2, h3 {
+            width: 403px;
+            margin: 0 0 0 16.5%;
+        }
+        h1 {
+            margin: 1.5% 0 0 0;
+            }
+        h3 {
+            font-family: font(dosis);
+            font-size: 24px;
+            }
+        .button {
+            width: 136px;
+            height: 48px;
+            margin: 2% 0 0 16.5%;
+            color: color(wht);
+            background-color: color(bck);
+            border-radius: 24px;
+            font-family: font(dosis);
+            font-size: 16px;
+            padding-top: 10px;
+            text-align: center;
+            @include transform(all .5s ease);
+
+            &:hover{
+                width: 200px;
+                background-color: color(fblue);   
+                font-size: 20px;           
+                  
+                    }
+        }
+    }    

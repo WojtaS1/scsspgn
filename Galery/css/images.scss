@@ -1,0 +1,27 @@
+.img {
+    height: 720px;
+    .img1 {
+        background-image: img(-img1);
+        @include cover;
+    }
+    .img2{
+        background-image: img(-img2);
+        @include cover;
+    }
+    .img3{
+        background-image: img(-img3);
+        @include cover;
+    }
+    .img4{
+        background-image: img(-img4);
+        @include cover;
+    }
+    .img5{
+        background-image: img(-img5);
+        @include cover;
+    }
+    .img6{
+        background-image: img(-img6);
+        @include cover;
+    }
+}

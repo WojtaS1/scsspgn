@@ -6,11 +6,11 @@ body {
     background-color: color(wht);
     position: absolute;   
 
-    @import 'header.scss';
+    @import 'onepage/header.scss';
 
-    @import 'img.scss';
+    @import 'onepage/img.scss';
 
-    @import 'cards.scss';
+    @import 'onepage/cards.scss';
 
-    @import 'footer.scss';
+    @import 'onepage/footer.scss';
 }

@@ -1,0 +1,176 @@
+@import url("https://fonts.googleapis.com/css?family=Dosis");
+@import url("https://fonts.googleapis.com/css?family=Baloo+Bhai");
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+body header {
+  height: 10vh;
+  margin: 0 auto;
+  background-color: #ffffff;
+  -webkit-box-shadow: 0 0 50px #343a40;
+          box-shadow: 0 0 50px #343a40;
+  z-index: 1;
+}
+
+body header a {
+  margin: 1% 0 0 3%;
+  color: #6c757d;
+  font-size: 25px;
+  position: fixed;
+  z-index: 1;
+}
+
+body header a:hover {
+  text-decoration: none;
+  color: #007bff;
+}
+
+body header h1 {
+  margin: 1.5% 0 0 0;
+  color: #6c757d;
+  font-family: "Baloo Bhai";
+  font-size: 25px;
+}
+
+body header h1:hover {
+  color: #007bff;
+}
+
+body .img {
+  height: 720px;
+}
+
+body .img .img1 {
+  background-image: url(../../img/header/img-1.jpg);
+  background-size: cover;
+}
+
+body .img .img1:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .img .img2 {
+  background-image: url(../../img/header/img-2.jpg);
+  background-size: cover;
+}
+
+body .img .img2:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .img .img3 {
+  background-image: url(../../img/header/img-3.jpg);
+  background-size: cover;
+}
+
+body .img .img3:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .img .img4 {
+  background-image: url(../../img/header/img-4.jpg);
+  background-size: cover;
+}
+
+body .img .img4:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .img .img5 {
+  background-image: url(../../img/header/imgs1.jpg);
+  background-size: cover;
+}
+
+body .img .img5:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .img .img6 {
+  background-image: url(../../img/header/imgs2.jpg);
+  background-size: cover;
+}
+
+body .img .img6:hover {
+  -webkit-filter: grayscale(100%);
+          filter: grayscale(100%);
+}
+
+body .cards {
+  width: 80%;
+  margin-left: 10%;
+  margin-bottom: 123px;
+  margin-top: 123px;
+  border: none;
+  text-align: center;
+}
+
+body .cards h1 {
+  font-size: 24px;
+  font-weight: 400;
+}
+
+body .cards p {
+  font-size: 16px;
+  font-weight: 300;
+}
+
+body footer {
+  height: 45%;
+  background-color: #343a40;
+  color: #ffffff;
+}
+
+body footer h1 {
+  margin: 0 auto;
+  margin-top: 70px;
+  margin-bottom: 30px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+body footer nav {
+  margin: 0 auto;
+  margin-bottom: 80px;
+  padding: 0;
+  color: #ffffff;
+  font-size: 17px;
+}
+
+body footer nav a {
+  margin: 0 auto;
+  color: #ffffff;
+}
+
+body footer a {
+  margin: 0 15px 10px 0;
+}
+
+body footer a:hover .fa-instagram {
+  color: #e83e8c;
+  font-size: 25px;
+}
+
+body footer a:hover .fa-facebook-square {
+  color: #007bff;
+  font-size: 25px;
+}
+
+body footer a:hover .fa-500px {
+  color: #dc3545;
+  font-size: 25px;
+}
+
+body footer a:hover .fa-snapchat-square {
+  color: #ffc107;
+  font-size: 25px;
+}
+/*# sourceMappingURL=main.css.map */

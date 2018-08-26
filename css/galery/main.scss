@@ -1,0 +1,9 @@
+@import 'function.scss';
+
+body{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+
+    @import 'header.scss';
+}
